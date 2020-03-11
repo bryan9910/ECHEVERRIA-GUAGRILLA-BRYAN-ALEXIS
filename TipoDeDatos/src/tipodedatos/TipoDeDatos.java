@@ -35,11 +35,23 @@ boolean valorBool1=false;
         .println (sumar2Numeros(1,2));
     }
   public static  void imprimirNombre() {
-    System.out.println("Bryan Alexis Echeverria Guagrilla");}
+    System.out.println("Bryan Alexis  \n Echeverria Guagrilla");
+    System.out.println("\b borrar iz BRyan \t tabular \f comienzopa");
+    String nombre ="Bryan  Echeverria";       //
+    System.out.println(nombre.length());       //El numero de letras
+    System.out.println(nombre.trim());        //Elimina espacios en blanco de los extremos de la cadena de caracteres
+    System.out.println(nombre.toUpperCase());  //Cadena Mayusculas
+    System.out.println(nombre.toLowerCase());   //Cadena minisculas
+    System.out.println(nombre.replace(nombre,"Mauricio"));  //valor a remmplazar 
+    System.out.println(nombre);    //valor original
+    System.out.println(nombre.split(" "));  //El valor con el que se divide la palabra
+            }         
   public static int sumar2Numeros(int num1, int num2){
   int suma =num1 + num2;
 return suma;   
 }
+  
+  
   }
 
 
